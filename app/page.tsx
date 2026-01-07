@@ -1,7 +1,10 @@
 import CircularMaturity from "@/components/sections/CircularMaturity";
 import Features from "@/components/sections/Features";
+import FinalCTA from "@/components/sections/FinalCTA";
+import Footer from "@/components/sections/Footer";
 import FreeAssessment from "@/components/sections/FreeAssessment";
 import Hero from "@/components/sections/Hero";
+import Mediterranean from "@/components/sections/Mediterranean";
 import Partners from "@/components/sections/Partners";
 import Resources from "@/components/sections/Resources";
 import SharedRessources from "@/components/sections/SharedResources";
@@ -17,7 +20,10 @@ export default function HomePage() {
       <Resources />
       <SharedRessources />
       <FreeAssessment />
+      <Mediterranean />
       <Partners />
+      <FinalCTA />
+      <Footer />
     </main>
   );
 }

@@ -38,7 +38,7 @@ export default function Features() {
                 background: "radial-gradient(circle, #8AB9FF 0%, rgba(138,185,255,0.3) 60%, transparent 100%)",
             }}
         />
-        <div className="relative z-20 h-[460px] w-[260px] overflow-hidden rounded-3xl shadow-xl">
+        <div className="relative z-40 h-[460px] w-[260px] overflow-hidden rounded-3xl shadow-xl">
             <img
             src="/young_shoot.png"
             alt="Play the video"
