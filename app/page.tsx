@@ -4,6 +4,7 @@ import FreeAssessment from "@/components/sections/FreeAssessment";
 import Hero from "@/components/sections/Hero";
 import Partners from "@/components/sections/Partners";
 import Resources from "@/components/sections/Resources";
+import SharedRessources from "@/components/sections/SharedResources";
 import WhyCircular from "@/components/sections/WhyCircular";
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Features />
       <CircularMaturity/>
       <Resources />
+      <SharedRessources />
       <FreeAssessment />
       <Partners />
     </main>
