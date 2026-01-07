@@ -25,3 +25,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes partners-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes partners-scroll-reverse {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(50%);
+  }
+}
+
+.animate-partners-scroll {
+  animation: partners-scroll 40s linear infinite;
+}
+
+.animate-partners-scroll-reverse {
+  animation: partners-scroll-reverse 40s linear infinite;
+}
+
+.animate-partners-scroll:hover {
+  animation-play-state: paused;
+}
+
+
+
+

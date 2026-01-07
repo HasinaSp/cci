@@ -9,7 +9,7 @@ export default function Resources() {
         {/* HEADER */}
         <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <span className="inline-flex items-center gap-2 rounded-full bg-blue-300 px-4 py-2 text-md font-medium text-primary">
+            <span className="inline-flex items-center gap-2 rounded-full bg-blue-50 px-4 py-2 text-md font-medium text-blue-500">
               Resource Center
             </span>
 
