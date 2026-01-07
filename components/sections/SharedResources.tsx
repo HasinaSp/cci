@@ -23,8 +23,9 @@ export default function SharedRessources() {
             <h1 className="text-4xl font-bold text-gray-800">
                 Turn shared Resources into real value
             </h1>
-          <h2 className="mt-6 text-xl md:text-xl font-bold text-neutral-900">
-            Rely on other stakeholders to support your transition : the circular economy is also about inter-company synergies.
+          <h2 className="mt-6 text-md md:text-md font-bold text-neutral-900">
+            Rely on other stakeholders to support your transition: <br />
+            the circular economy is also about inter-company synergies.
           </h2>
 
           <p className="mt-6 text-neutral-600 leading-relaxed">
