@@ -1,4 +1,6 @@
 import HeroCircles from "./HeroCircles";
+import Image from "next/image";
+
 
 export default function Hero() {
   return (
@@ -9,7 +11,14 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl px-6 text-white">
         {/* Badge */}
-        <span className="mb-6 inline-block rounded-full bg-white/20 px-4 py-1 text-sm backdrop-blur">
+        <span className="mb-6 text-emerald-950 inline-block rounded-full bg-gradient-to-r from-white via-[#f7f8f8] to-[#47fda2] px-4 py-2 border-3 border-white text-sm backdrop-blur">
+                    <Image
+                      src="/stars.png"
+                      alt=""
+                      width={16}
+                      height={16}
+                      className="inline-block mr-2"
+                    />
           Assess your circularity
         </span>
 

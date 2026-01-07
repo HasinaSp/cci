@@ -20,7 +20,7 @@ export function FeatureCard({
         <p className="mt-2 text-sm text-neutral-600">{description}</p>
       )}
       {cta && (
-        <button className="mt-4 rounded-full bg-primary px-4 py-2 text-xs font-medium text-white">
+        <button className="mt-4 rounded-full bg-blue-500 px-4 py-2 text-xs font-medium text-white">
           {cta}
         </button>
       )}

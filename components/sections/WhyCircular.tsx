@@ -1,10 +1,18 @@
+import Image from "next/image";
 export default function WhyCircular() {
   return (
     <section className="bg-white py-28">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 md:grid-cols-[35%_65%]">
         {/* LEFT – TEXT */}
         <div>
-          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-blue-500 font-medium">
+          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-slate-900 font-medium border-2 border-blue-400 border-spacing-1.5">
+            <Image
+              src="/refresh-circle.png"
+              alt=""
+              width={24}
+              height={24}
+              className="inline-block justify-start mx-1"
+            />
             The Case for Change
           </span>
 
