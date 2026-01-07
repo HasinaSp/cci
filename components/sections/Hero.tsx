@@ -25,7 +25,7 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="mt-8">
-          <button className="rounded-full bg-blue-600 px-6 py-2 text-base hover:bg-blue-700 transition">
+          <button className="rounded-full bg-[#0095D5] px-6 py-2 text-base hover:bg-blue-600 transition">
             Start My Assessment
           </button>
         </div>

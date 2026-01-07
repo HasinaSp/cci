@@ -31,7 +31,7 @@ export default function Partners() {
         </h2>
 
         {/* Carousel */}
-        <div className="relative mt-20 overflow-hidden">
+        <div className="relative mt-12 overflow-hidden">
           {/* Fade edges */}
           <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-white to-transparent" />
             <div className="flex w-max animate-partners-scroll gap-8 mb-4">

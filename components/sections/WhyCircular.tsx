@@ -4,7 +4,7 @@ export default function WhyCircular() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 md:grid-cols-[35%_65%]">
         {/* LEFT – TEXT */}
         <div>
-          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-m font-medium">
+          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-blue-500 font-medium">
             The Case for Change
           </span>
 
