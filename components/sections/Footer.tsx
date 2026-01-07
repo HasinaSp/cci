@@ -18,12 +18,11 @@ export default function Footer() {
                 width={240}
                 height={80}
               />
-            <p className="mt-2 mx-2 max-w-80 text-sm leading-relaxed text-gray-900">
+            <p className="mt-2 mx-2 max-w-80 leading-relaxed text-sm font-semibold text-slate-900">
               Empowering your transition to a circular <br /> future with clarity,
               support, and <br />actionable insights.
             </p>
             </div>
-
 
             {/* Social */}
             <div className="mt-6 flex items-center gap-3">

@@ -43,7 +43,7 @@ export default function FreeAssessment() {
             alt=""
             width={480}
             height={480}
-            className="absolute inset-0 z-10 w-full h-full object-contain translate-x-6 translate-y-6"
+            className="absolute inset-0 z-10 w-full h-full object-contain translate-x-40 translate-y-20"
         />
         </div>
       </div>

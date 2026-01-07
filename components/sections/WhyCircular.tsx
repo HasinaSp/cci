@@ -43,9 +43,9 @@ export default function WhyCircular() {
         </div>
 
         {/* RIGHT – IMAGES */}
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2">
           {/* LEFT COLUMN */}
-          <div className="flex flex-col justify-center gap-6">
+          <div className="flex flex-col justify-center gap-4">
             {/* Large image */}
             <div className="overflow-hidden rounded-2xl shadow-lg">
               <img
@@ -69,7 +69,7 @@ export default function WhyCircular() {
 
           {/* RIGHT COLUMN */}
           <div className="flex items-center justify-center">
-            <div className="overflow-hidden rounded-2xl shadow-lg h-[80%] w-full max-w-md">
+            <div className="overflow-hidden rounded-2xl shadow-lg h-[80%] w-80 max-w-md">
               <img
                 src="/litle_tree.png"
                 alt=""

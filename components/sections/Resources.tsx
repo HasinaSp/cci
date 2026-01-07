@@ -20,7 +20,11 @@ export default function Resources() {
 
           {/* ACTIONS */}
           <div className="flex items-center gap-3">
-            <button className="rounded-full bg-neutral-900 px-6 py-3 text-sm font-medium text-white">
+            <button className="inline-flex items-center justify-center rounded-full
+                       bg-slate-900 px-8 py-3 text-sm font-semibold
+                       text-white transition
+                       hover:bg-slate-800 focus:outline-none
+                       focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">
               Visit the Resource Center
             </button>
 

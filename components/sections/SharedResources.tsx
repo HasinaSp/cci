@@ -39,7 +39,11 @@ export default function SharedRessources() {
             management and business development asset.
           </p>
 
-          <button className="mt-8 rounded-full bg-gray-900 px-8 py-4 text-sm font-semibold text-white shadow-md transition hover:bg-primary/90">
+          <button className="inline-flex items-center justify-center rounded-full
+                       bg-slate-900 px-8 py-3 text-sm font-semibold
+                       text-white transition
+                       hover:bg-slate-800 focus:outline-none
+                       focus:ring-2 focus:ring-slate-900 focus:ring-offset-2">
             Discover Synergy Opportunities
           </button>
         </div>
