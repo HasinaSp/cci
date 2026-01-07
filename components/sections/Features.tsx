@@ -18,7 +18,7 @@ export default function Features() {
         <img
         src="/feuille.png"
         alt=""
-        className="pointer-events-none absolute right-[80px] top-40 w-80"
+        className="pointer-events-none absolute right-[64px] top-40 w-80"
       />
     <div className="relative flex h-[520px] w-full items-center justify-center">
         <img
@@ -53,32 +53,32 @@ export default function Features() {
           title="A clear assessment"
           description="A questionnaire that helps you explore the core dimensions of the circular economy."
           cta="Start My Assessment"
-          className="absolute z-20 left-72 top-32"
+          className="absolute z-20 left-64 top-36"
         />
 
         <FeatureCard
           title="100+"
-          className="absolute z-20 left-72 bottom-28"
+          className="absolute z-20 left-64 bottom-28"
         />
         <img src="/arrow-2.png" 
         alt="" 
-        className="pointer-events-none absolute left-112 bottom-8 w-24"
+        className="pointer-events-none absolute left-96 bottom-8 w-24"
         />
         {/* RIGHT */}
         <img src="/arrow.png" 
         alt="" 
-        className="pointer-events-none absolute right-112 top-12 w-24"
+        className="pointer-events-none absolute right-96 top-12 w-24"
         />
         <FeatureCard
           title="Consistently reliable results"
-          className="absolute right-72 top-28"
+          className="absolute right-64 top-28 z-20"
         />
 
         <FeatureCard
           title="A ready-to-use action plan"
           description="CircleHub turns your results into a practical, operational roadmap."
           cta="Access your account"
-          className="absolute right-72 bottom-40 z-20"
+          className="absolute right-64 bottom-40 z-20"
         />
     </div>
     </section>

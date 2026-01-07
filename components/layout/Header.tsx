@@ -59,7 +59,11 @@ export default function Header() {
           </Link>
           <Link
             href="/assessment"
-            className="bg-slate-900 text-white text-sm px-3 py-2 rounded-full hover:opacity-80 transition"
+            className="inline-flex items-center justify-center rounded-full
+                       bg-slate-900 px-8 py-3 text-sm font-semibold
+                       text-white transition
+                       hover:bg-slate-800 focus:outline-none
+                       focus:ring-2 focus:ring-slate-900 focus:ring-offset-2"
           >
             Start My Assessement
           </Link>
