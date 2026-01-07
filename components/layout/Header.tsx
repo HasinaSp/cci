@@ -43,6 +43,12 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
+          <Link
+            href="/circleexchange"
+            className="bg-white font-semibold text-slate-900 underline hover:opacity-80 transition"
+          >
+            CircleExchange
+          </Link>
           </nav>
 
           {/* CTA desktop */}
@@ -52,7 +58,8 @@ export default function Header() {
           >
             Profil
           </Link>
-                    <Link
+
+          <Link
             href="/lang"
             className="bg-white text-slate-900 border border-slate-900 px-2 py-1 rounded-full hover:opacity-80 transition">
             ENG

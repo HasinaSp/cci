@@ -8,9 +8,17 @@ export default function FreeAssessment() {
         {/* TEXT */}
         <div className="relative mx-auto w-full max-w-md">
             <span className="inline-block rounded-full bg-blue-50 px-4 py-2 text-md font-medium text-blue-500">
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-slate-900 font-medium border-2 border-blue-400 border-spacing-1.5 mb-3">
+                <Image
+                  src="/stars.png"
+                  alt=""
+                  width={24}
+                  height={24}
+                  className="inline-block justify-start mx-1"
+                />
                 Free Access for All
             </span>
-
           <h2 className="mt-6 text-3xl md:text-4xl font-bold text-neutral-900">
             Why is the self-assessment available for free?
           </h2>
