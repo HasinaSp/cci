@@ -57,10 +57,13 @@ export default function Features() {
         />
 
         <FeatureCard
-          title="100+ Resources you can rely on"
-          className="absolute z-20 left-72 bottom-24"
+          title="100+"
+          className="absolute z-20 left-72 bottom-28"
         />
-
+        <img src="/arrow-2.png" 
+        alt="" 
+        className="pointer-events-none absolute left-112 bottom-8 w-24"
+        />
         {/* RIGHT */}
         <img src="/arrow.png" 
         alt="" 
@@ -75,7 +78,7 @@ export default function Features() {
           title="A ready-to-use action plan"
           description="CircleHub turns your results into a practical, operational roadmap."
           cta="Access your account"
-          className="absolute right-12 bottom-24"
+          className="absolute right-72 bottom-40 z-20"
         />
     </div>
     </section>
