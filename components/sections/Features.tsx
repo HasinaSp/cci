@@ -1,5 +1,6 @@
 import { FeatureCard } from "./FeatureCard";
 import Image from "next/image";
+import { FeatureCardLittle } from "./FeatureCardLittle";
 
 
 export default function Features() {
@@ -50,36 +51,41 @@ export default function Features() {
         </div>
         {/* LEFT */}
         <FeatureCard
+          icon={<Image src="/pc.png" alt="" width={40} height={40} />}
           title="A clear assessment"
           description="A questionnaire that helps you explore the core dimensions of the circular economy."
           cta="Start My Assessment"
-          className="absolute z-20 left-64 top-36"
+          className="absolute z-30 left-64 top-36"
         />
 
-        <FeatureCard
+        <FeatureCardLittle
           title="100+"
-          className="absolute z-20 left-64 bottom-28"
+          icon={<Image src="/global-search.png" alt="" width={40} height={40} />}
+          description="Resource you can rely on"
+          className="absolute z-30 left-64 bottom-20"
         />
         <img src="/arrow-2.png" 
         alt="" 
-        className="pointer-events-none absolute left-96 bottom-8 w-24"
+        className="pointer-events-none absolute left-96 bottom-0 w-24"
         />
         {/* RIGHT */}
         <img src="/arrow.png" 
         alt="" 
-        className="pointer-events-none absolute right-96 top-12 w-24"
+        className="pointer-events-none absolute right-96 top-4 w-24"
         />
-        <FeatureCard
+        <FeatureCardLittle
+          icon={<Image src="/messages.png" alt="" width={40} height={40} />}
           title="Consistently reliable results"
-          className="absolute right-64 top-28 z-20"
-        />
+          className="absolute right-64 top-20 z-20"
+          />
 
         <FeatureCard
+          icon={<Image src="/add-doc.png" alt="" width={40} height={40} />}
           title="A ready-to-use action plan"
           description="CircleHub turns your results into a practical, operational roadmap."
           cta="Access your account"
           className="absolute right-64 bottom-40 z-20"
-        />
+         />
     </div>
     </section>
   );

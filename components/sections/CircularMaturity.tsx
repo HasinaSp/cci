@@ -17,8 +17,15 @@ export default function CircularMaturity() {
         </div>
         {/* TEXT */}
         <div className="relative mx-auto w-full max-w-md">
-          <span className="inline-block rounded-full bg-blue-50 px-4 py-2 text-md font-medium text-blue-500 mb-4">
-            Assess your Circular Maturity
+          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-slate-900 font-medium border-2 border-blue-400 border-spacing-1.5 mb-3">
+                      <Image
+                        src="/oeil.png"
+                        alt=""
+                        width={24}
+                        height={24}
+                        className="inline-block justify-start mx-1"
+                      />
+                      Assess your Circular Maturity
           </span>
             <h1 className="text-4xl font-bold text-gray-800">
                 Test your circular maturity and access tools to transform your organization

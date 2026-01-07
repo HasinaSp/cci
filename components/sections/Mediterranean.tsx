@@ -35,9 +35,16 @@ export default function Mediterranean() {
           {/* RIGHT – Content */}
           <div>
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 rounded-full border border-sky-300 bg-sky-100 px-4 py-1.5 text-sm font-medium text-sky-700">
-              ⚡ Mediterranean Circularity
-            </div>
+            <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-300 via-blue-200 to-blue-100 px-10 py-3 text-md text-slate-900 font-medium border-2 border-blue-400 border-spacing-1.5 mb-3">
+                <Image
+                  src="/thunder.png"
+                  alt=""
+                  width={24}
+                  height={24}
+                  className="inline-block justify-start mx-1"
+                />
+                Mediterranean Circularity
+            </span>
 
             {/* Title */}
             <h2 className="mt-6 text-4xl font-extrabold leading-tight text-slate-900">

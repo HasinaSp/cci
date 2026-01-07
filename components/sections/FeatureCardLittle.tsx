@@ -4,33 +4,27 @@ type FeatureCardProps = {
   icon?: ReactNode;
   title: string;
   description?: string;
-  cta?: string;
   className?: string;
 };
 
-export function FeatureCard({
+export function FeatureCardLittle({
   icon = null,
   title,
   description,
-  cta,
   className = '',
 }: FeatureCardProps) {
   return (
     <div
       className={`w-64 rounded-2xl bg-white p-3 shadow-lg ${className? ' ' + className : ''}`}
     >
-      {icon && <div className="flex justify-center">{icon}</div>}
+    <div className="inline-flex flex-1 justify-center gap-2">
+        {icon && <div className="">{icon}</div>}
+        <span className="flex flex-col gap-2 justify-end m-1"></span>
       <h3 className="font-semibold text-center text-neutral-900">{title}</h3>
-      {description && (
+            {description && (
         <p className="mt-2 text-sm flex text-center text-neutral-600">{description}</p>
       )}
-      {cta && (
-        <div className="flex justify-center mt-2">
-          <button type="button" className="rounded-full bg-blue-500 px-4 py-2 text-xs font-medium text-white">
-            {cta}
-          </button>
-        </div>
-      )}
+    </div>
     </div>
   );
 }

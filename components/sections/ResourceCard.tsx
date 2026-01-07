@@ -5,6 +5,7 @@ type ResourceCardProps = {
   category: string;
   title: string;
   date: string;
+  content: string;
   readTime: string;
 };
 
@@ -13,6 +14,7 @@ export function ResourceCard({
   category,
   title,
   date,
+  content,
   readTime,
 }: ResourceCardProps) {
   return (
@@ -28,7 +30,7 @@ export function ResourceCard({
         />
 
         {/* CATEGORY */}
-        <span className="absolute bottom-4 left-4 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur">
+        <span className="absolute bottom-1 left-4 z-10 rounded-full bg-blue-300 px-3 py-1 text-xs font-medium text-slate-900 backdrop-blur">
           {category}
         </span>
       </div>
@@ -38,9 +40,14 @@ export function ResourceCard({
         {title}
       </h3>
 
+      <p className="mt-2 text-sm text-neutral-600">
+        {content}
+      </p>
       <div className="mt-3 flex items-center gap-4 text-xs text-neutral-500">
+        <Image src="/calendar.png" alt="Calendar icon" width={20} height={20}></Image>
         <span>{date}</span>
         <span>•</span>
+        <Image src="/clock.png" alt="Clock icon" width={20} height={20}></Image>
         <span>{readTime}</span>
       </div>
     </article>
