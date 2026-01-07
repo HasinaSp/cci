@@ -17,7 +17,7 @@ export default function CircularMaturity() {
         </div>
         {/* TEXT */}
         <div className="relative mx-auto w-full max-w-md">
-          <span className="inline-block rounded-full bg-blue-300 px-4 py-2 text-xl font-medium text-primary mb-4">
+          <span className="inline-block rounded-full bg-blue-50 px-4 py-2 text-md font-medium text-blue-500 mb-4">
             Assess your Circular Maturity
           </span>
             <h1 className="text-4xl font-bold text-gray-800">

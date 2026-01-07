@@ -7,7 +7,7 @@ export default function FreeAssessment() {
 
         {/* TEXT */}
         <div className="relative mx-auto w-full max-w-md">
-            <span className="inline-block rounded-full bg-blue-400 px-4 py-2 text-xl font-medium text-primary">
+            <span className="inline-block rounded-full bg-blue-50 px-4 py-2 text-md font-medium text-blue-500">
                 Free Access for All
             </span>
 
