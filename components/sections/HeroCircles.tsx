@@ -10,7 +10,7 @@ const circles = [
 
 export default function HeroCircles() {
   return (
-    <div className="absolute bottom-[-70px] left-1/2 z-40 -translate-x-1/2">
+    <div className="absolute bottom-[-86px] left-1/2 z-40 -translate-x-1/2">
       <div className="flex items-center gap-[-40px]">
         {circles.map((circle, i) => (
           <div

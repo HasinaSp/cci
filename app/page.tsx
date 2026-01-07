@@ -1,6 +1,9 @@
 import CircularMaturity from "@/components/sections/CircularMaturity";
 import Features from "@/components/sections/Features";
+import FreeAssessment from "@/components/sections/FreeAssessment";
 import Hero from "@/components/sections/Hero";
+import Partners from "@/components/sections/Partners";
+import Resources from "@/components/sections/Resources";
 import WhyCircular from "@/components/sections/WhyCircular";
 
 export default function HomePage() {
@@ -10,6 +13,9 @@ export default function HomePage() {
       <WhyCircular />
       <Features />
       <CircularMaturity/>
+      <Resources />
+      <FreeAssessment />
+      <Partners />
     </main>
   );
 }
