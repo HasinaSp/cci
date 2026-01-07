@@ -28,7 +28,7 @@ export default function Header() {
             <div className="flex flex-1 space-x-2">
               <Image src="/logo.png" alt="CircleNavigator" width={100} height={40} />
               <div className=""></div>
-              <Image src="/calque.png" alt="CircleNavigator" width={180} height={32} />
+              <Image src="/calque.png" alt="CircleNavigator" width={220} height={24} />
             </div>
           </Link>
 
