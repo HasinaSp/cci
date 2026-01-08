@@ -43,9 +43,7 @@ export default function Features() {
             <video
               src="/videos/young_shoot.webm"
               className="h-full w-full object-cover"
-              autoPlay
               muted
-              playsInline
               loop
               controls
             />
