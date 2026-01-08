@@ -39,8 +39,8 @@ export default function Mediterranean() {
                 <Image
                   src="/thunder.png"
                   alt=""
-                  width={24}
-                  height={24}
+                  width={16}
+                  height={16}
                   className="inline-block justify-start mx-1"
                 />
                 Mediterranean Circularity
