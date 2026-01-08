@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ResourceCard } from "./ResourceCard";
+import { ResourceCard } from "../cards/ResourceCard";
 
 export default function Resources() {
   return (
@@ -55,6 +55,7 @@ export default function Resources() {
         {/* CARDS */}
         <div className="mt-16 grid gap-8 md:grid-cols-3">
           <ResourceCard
+            href="/resources/future-lab-var"
             image="/sarajevo_companies.png"
             category="Circular Economy"
             title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
@@ -64,6 +65,7 @@ export default function Resources() {
           />
 
           <ResourceCard
+            href="/resources/future-lab-var"
             image="/lab_turin.png"
             category="Local Initiatives"
             title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
@@ -73,6 +75,7 @@ export default function Resources() {
           />
 
           <ResourceCard
+            href="/resources/future-lab-var"
             image="/futur_lab.png"
             category="Innovation"
             title="Future Lab: discussing the future of sustainable swimming pools in the Var region"

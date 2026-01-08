@@ -39,15 +39,16 @@ export default function Features() {
                 background: "radial-gradient(circle, #8AB9FF 0%, rgba(138,185,255,0.3) 60%, transparent 100%)",
             }}
         />
-        <div className="relative z-40 h-[460px] w-[260px] overflow-hidden rounded-3xl shadow-xl">
-            <img
-            src="/young_shoot.png"
-            alt="Play the video"
-            className="h-full w-full object-cover"
+        <div className="relative z-40 h-115 w-65 overflow-hidden rounded-3xl shadow-xl">
+            <video
+              src="/videos/young_shoot.webm"
+              className="h-full w-full object-cover"
+              autoPlay
+              muted
+              playsInline
+              loop
+              controls
             />
-            <span className="absolute bottom-4 left-1/2 -translate-x-1/2 text-sm font-bold text-white">
-            Play the video
-            </span>
         </div>
         {/* LEFT */}
         <FeatureCard
