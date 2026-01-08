@@ -1,7 +1,9 @@
 import Image from "next/image";
+import HeroCircles from "./HeroCircles";
 export default function WhyCircular() {
   return (
     <section className="bg-white py-28">
+      <HeroCircles />
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 px-6 md:grid-cols-[35%_65%]">
         {/* LEFT – TEXT */}
         <div>
@@ -88,6 +90,5 @@ export default function WhyCircular() {
         </div>
       </div>    
     </section>
-
   );
 }

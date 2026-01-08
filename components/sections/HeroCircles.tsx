@@ -2,7 +2,7 @@ const circles = [
   { src: "/figure_1.png", size: 72 },
   { src: "/figure_2.png", size: 96 },
   { src: "/figure_3.png", size: 128 },
-  { src: "/figure_4.png", size: 176 }, // centre
+  { src: "/videos/circle.webm", size: 176 }, // centre
   { src: "/figure_5.png", size: 128 },
   { src: "/figure_6.png", size: 96 },
   { src: "/figure_7.png", size: 72 },
@@ -21,11 +21,22 @@ export default function HeroCircles() {
             }}
             className="shrink-0 overflow-hidden rounded-full bg-white p-[6px] shadow-md"
           >
-            <img
-              src={circle.src}
-              alt=""
-              className="h-full w-full rounded-full object-cover"
-            />
+            {circle.src.endsWith('.webm') ? (
+              <video
+                src={circle.src}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="h-full w-full rounded-full object-cover"
+              />
+            ) : (
+              <img
+                src={circle.src}
+                alt=""
+                className="h-full w-full rounded-full object-cover"
+              />
+            )}
           </div>
         ))}
       </div>
