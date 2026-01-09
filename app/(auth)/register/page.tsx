@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
+import PinnedLogos from "@/components/assessement/PinnedLogos";
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -47,9 +48,11 @@ export default function RegisterPage() {
       <div className="hidden md:block absolute inset-0">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/auth/register-bg.png')" }}
+          style={{ backgroundImage: "url('/auth/inscription-bg.jpg')" }}
         />
-        <div className="absolute inset-0 bg-brown-200/80 backdrop-blur-xs"></div>
+        <div className="absolute bg-white z-20">
+          <PinnedLogos />
+        </div>
       </div>
 
       {/* Content */}
@@ -73,7 +76,7 @@ export default function RegisterPage() {
           </div>
 
           {/* REGISTER CARD */}
-          <div className="w-full max-w-[620px]">
+          <div className="w-full max-w-xl md:h-[620px] absolute right-40 bottom-0">
             <div className="rounded-2xl bg-white p-8 shadow-xl">
               {/* Header */}
               <div className="mb-6">
