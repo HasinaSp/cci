@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import PinnedLogos from "@/components/assessement/PinnedLogos";
 
-export default function RegisterPage() {
+export default function CompanyPage() {
   const router = useRouter();
 
   const [name, setName] = useState("");
@@ -65,78 +65,22 @@ export default function RegisterPage() {
             </h1>
 
             <p className="mt-4 text-sm text-slate-200">
-              Please complete the fields related to your company before proceeding to the next step.
+              Please complete the fields related to your company <br />before proceeding to the next step.
             </p>
           </div>
 
           {/* REGISTER CARD */}
-          <div className="w-full max-w-xl md:h-[620px] absolute right-40 bottom-0">
-            <div className="rounded-2xl bg-white p-8 shadow-xl">
+          <div className="w-full max-w-xl rounded-t-2xl shadow-xl bg-white md:h-[500px] absolute right-40 bottom-0">
+            <div className="p-8 ">
               {/* Header */}
               <div className="mb-6">
-                <p className="text-xs text-gray-900">LET’S GET YOU STARTED</p>
+                <p className="text-xs text-gray-900">ALMOST THERE</p>
                 <h1 className="text-xl font-semibold text-gray-900">
-                  Create an Account
+                  Enter your company details to continue
                 </h1>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-4">
-                {/* Row 1 */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="mb-1 block text-sm font-medium text-gray-700">
-                      Your Name*
-                    </label>
-                    <input
-                      type="text"
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                      placeholder="Johnson Doe"
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-slate-900 focus:outline-none"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="mb-1 block text-sm font-medium text-gray-700">
-                      Password*
-                    </label>
-                    <input
-                      type="password"
-                      value={password}
-                      onChange={(e) => setPassword(e.target.value)}
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-slate-900 focus:outline-none"
-                    />
-                  </div>
-                </div>
-
-                {/* Row 2 */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="mb-1 block text-sm font-medium text-gray-700">
-                      Work email*
-                    </label>
-                    <input
-                      type="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="johnsondoe@nomail.com"
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-slate-900 focus:outline-none"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="mb-1 block text-sm font-medium text-gray-700">
-                      Confirm password*
-                    </label>
-                    <input
-                      type="password"
-                      value={confirmPassword}
-                      onChange={(e) => setConfirmPassword(e.target.value)}
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm focus:border-slate-900 focus:outline-none"
-                    />
-                  </div>
-                </div>
-
                 {/* Organization */}
                 <div>
                   <label className="mb-1 block text-sm font-medium text-gray-700">
@@ -191,55 +135,9 @@ export default function RegisterPage() {
                   type="submit"
                   className="w-full rounded-full bg-slate-900 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
                 >
-                  Get Started
+                  Let me in
                 </button>
               </form>
-
-              {/* Divider */}
-              <div className="my-6 flex items-center gap-4">
-                <div className="h-px w-full bg-gray-200" />
-                <span className="text-sm text-gray-400">Or</span>
-                <div className="h-px w-full bg-gray-200" />
-              </div>
-
-              {/* Social login */}
-              <div className="grid grid-cols-3 gap-3">
-                <button className="flex items-center justify-center gap-2 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
-                  <img src="/icons/google.png" alt="Google" className="h-5 w-5" />
-                </button>
-
-                <button className="flex items-center justify-center gap-2 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
-                  <img
-                    src="/icons/linkedin.jpg"
-                    alt="LinkedIn"
-                    className="h-5 w-5"
-                  />
-                </button>
-
-                <button className="flex items-center justify-center gap-2 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
-                  <img src="/icons/apple.png" alt="Apple" className="h-5 w-5" />
-                </button>
-              </div>
-
-              {/* Footer */}
-              <p className="mt-6 text-center text-sm text-gray-600">
-                Already have an account?{" "}
-                <Link href="/login" className="text-slate-900 underline">
-                  Log in here
-                </Link>
-              </p>
-
-              <div className="mt-4 flex items-center justify-center gap-6 text-xs text-gray-500">
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" />
-                  I accept the <span className="underline">Terms of Use</span>
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" />
-                  I have read the{" "}
-                  <span className="underline">Privacy Policy</span>
-                </label>
-              </div>
             </div>
           </div>
         </div>
