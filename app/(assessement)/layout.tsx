@@ -1,4 +1,3 @@
-import "./globals.css";
 import Header from "@/components/layout/Header";
 
 export default function RootLayout({
@@ -7,11 +6,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="antialiased text-slate-900">
-        <Header />
-        {children}
-      </body>
-    </html>
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+      {children}
+    </div>
   );
 }
