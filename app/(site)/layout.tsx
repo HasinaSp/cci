@@ -7,11 +7,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="antialiased text-slate-900">
+    <div>
+      <div className="antialiased text-slate-900">
         <Header />
         {children}
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
