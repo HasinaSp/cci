@@ -12,7 +12,7 @@ export default function ResourcePage() {
     <div className="bg-white text-slate-900">
       <FuturLabHero
         title=""
-        image="/resources/Background.png"
+        image="/resources/background.png"
       />
 
       <div className="mx-auto max-w-7xl px-6 py-8">
