@@ -7,14 +7,13 @@ export default function AssessmentHero() {
   return (
     <section className="relative overflow-hidden rounded-3xl text-white">
         <Image
-            src="/diagnostic/basic-fleche.png"
+            src="/diagnostic/background.png"
             alt=""
             fill
             priority
             className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/85 to-blue-950/90" />
-            <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">  
+        <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">  
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           
           {/* LEFT */}
@@ -52,17 +51,20 @@ export default function AssessmentHero() {
           </div>
 
             {/* RIGHT */}
-            <div className="relative hidden lg:block">
+           <div className="relative hidden lg:block">
             <div className="relative ml-auto aspect-square w-[92%] translate-x-8 translate-y-8 overflow-hidden rounded-[32px] shadow-2xl">
-                <Image
+              
+              {/* IMAGE */}
+              <Image
                 src="/diagnostic/basic-card.png"
                 alt="Circular economy"
                 fill
                 priority
                 className="object-cover"
-                />
+              />
+
             </div>
-            </div>
+          </div>
 
         </div>
       </div>
