@@ -29,7 +29,7 @@ export default function FreeAssessment() {
             This open accessibility ensures broad, barrier-free dissemination of transition practices.
           </p>
 
-          <button className="mt-8 rounded-full border border-primary px-8 py-4 text-sm font-semibold text-primary shadow-md bg-gray-900">
+          <button className="mt-8 text-white rounded-full border border-primary px-8 py-4 text-sm font-semibold text-primary shadow-md bg-gray-900">
             Explore the Free Assessment
           </button>
         </div>
