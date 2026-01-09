@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
+import PinnedLogos from "@/components/assessement/PinnedLogos";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -32,8 +34,9 @@ export default function LoginPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/auth/login-bg.png')" }}
         />
-        {/* Overlay marron transparent + blur */}
-        <div className="absolute inset-0 bg-brown-200/80 backdrop-blur-xs"></div>
+          <div className="absolute bg-white z-20">
+            <PinnedLogos />
+          </div>
       </div>
 
       {/* Content */}
@@ -55,8 +58,8 @@ export default function LoginPage() {
           </div>
 
           {/* LOGIN CARD */}
-          <div className="w-full max-w-[460px]">
-            <div className="rounded-2xl bg-white p-8 shadow-xl">
+          <div className="w-full max-w-md md:h-[600px] absolute right-40 bottom-0">
+            <div className="rounded-t-2xl bg-white p-8">
               {/* Header */}
               <div className="mb-6">
                 <p className="text-xs text-gray-900">WELCOME BACK</p>
@@ -120,17 +123,17 @@ export default function LoginPage() {
 
                 {/* Social login */}
                 <div className="space-y-3">
-                <button className="flex w-full items-center justify-center gap-3 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
+                <button className="flex w-full items-center justify-start px-4 gap-24 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
                     <img src="/icons/google.png" alt="Google" className="h-5 w-5" />
                     Log in with Google
                 </button>
 
-                <button className="flex w-full items-center justify-center gap-3 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
+                <button className="flex w-full items-center justify-start px-4 gap-24 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
                     <img src="/icons/linkedin.jpg" alt="LinkedIn" className="h-5 w-5" />
                     Log in with LinkedIn
                 </button>
 
-                <button className="flex w-full items-center justify-center gap-3 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
+                <button className="flex w-full items-center justify-start px-4 gap-24 rounded-full border border-gray-300 bg-gray-100 py-2 text-sm font-medium text-gray-900 transition hover:bg-gray-200">
                     <img src="/icons/apple.png" alt="Apple" className="h-5 w-5" />
                     Log in with Apple
                 </button>
