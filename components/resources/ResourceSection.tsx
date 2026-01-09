@@ -64,27 +64,23 @@ export default function ResourceSection() {
         <div>
           <div className="mt-8 grid gap-8 md:grid-cols-3">
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-1.png"
-            category="Circular Economy"
-            title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
-            content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-1.png"
+              category="Circular Economy"
+              title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
+              content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-          href="/resources/future-lab-var"
-            image="/resources/resource-2.png"
-            category="Local Initiatives"
-            title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
-            content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-2.png"
+              category="Local Initiatives"
+              title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
+              content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-          href="/resources/future-lab-var"
+          href="/resources/content"
             image="/resources/resource-3.png"
             category="Innovation"
             title="Future Lab: discussing the future of sustainable swimming pools in the Var region"
@@ -95,65 +91,53 @@ export default function ResourceSection() {
         </div>
         <div className="mt-8 grid gap-8 md:grid-cols-3">
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-4.png"
-            category="Circular Economy"
-            title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
-            content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-4.png"
+              category="Circular Economy"
+              title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
+              content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-5.png"
-            category="Local Initiatives"
-            title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
-            content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-5.png"
+              category="Local Initiatives"
+              title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
+              content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-6.png"
-            category="Innovation"
-            title="Future Lab: discussing the future of sustainable swimming pools in the Var region"
-            content="CircleMED partner CCI du Var organised last 9 October 2025 its first Future Lab, dedicated..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-6.png"
+              category="Innovation"
+              title="Future Lab: discussing the future of sustainable swimming pools in the Var region"
+              content="CircleMED partner CCI du Var organised last 9 October 2025 its first Future Lab, dedicated..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
         </div>
         <div className="mt-8 grid gap-8 md:grid-cols-3">
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-7.png"
-            category="Circular Economy"
-            title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
-            content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-7.png"
+              category="Circular Economy"
+              title="Companies in Sarajevo exploring and discussing the key Rs of the Circular Economy"
+              content="On 12 November, CircleMED partner SERDA gathered representatives and owners of start-u..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-8.png"
-            category="Local Initiatives"
-            title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
-            content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-8.png"
+              category="Local Initiatives"
+              title="Future Lab Turin: launching local initiatives to engage citizens in circular economy dialogue"
+              content="CircleMED Is about to launch its Future Labs: local animation initiatives, enhancing societal..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
 
           <ResourceCard
-            href="/resources/future-lab-var"
-            image="/resources/resource-9.png"
-            category="Innovation"
-            title="Future Lab: discussing the future of sustainable swimming pools in the Var region"
-            content="CircleMED partner CCI du Var organised last 9 October 2025 its first Future Lab, dedicated..."
-            date="24 November 2025"
-            readTime="2-minute read"
-          />
+              image="/resources/resource-9.png"
+              category="Innovation"
+              title="Future Lab: discussing the future of sustainable swimming pools in the Var region"
+              content="CircleMED partner CCI du Var organised last 9 October 2025 its first Future Lab, dedicated..."
+              date="24 November 2025"
+              readTime="2-minute read" href={""}          />
          </div>
         </div>
         {/* Pagination */}

@@ -22,7 +22,7 @@ export function ResourceCard({
 }: ResourceCardProps) {
   return (
     <Link
-      href={href}
+      href="/resources/content"
       className="group block h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl"
     >
       <article className="flex h-full flex-col cursor-pointer">
